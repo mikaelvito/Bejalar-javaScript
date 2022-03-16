@@ -35,3 +35,27 @@ console.log(ktp.alamat["rt/rw"])
 ktp.pekerjaan.forEach(function(item) {
     console.log(`${item} adalah pekerjaan ${ktp.nama}`)
 })
+
+const namaKeluarga = ["Vito", "Vita", "Vitu"];
+console.log(namaKeluarga);
+
+const namaKartuKeluarga = [
+    "Pak Vito",
+    "Mak Vita",
+    "Kak Vitu"
+];
+
+
+const namaKK = new Array("Vito", "Vita", "Vitu");
+console.log(namaKeluarga)
+console.log(namaKartuKeluarga.length)
+
+const arrays = [namaKeluarga, namaKartuKeluarga]
+console.log(arrays);
+
+const buah = ["Apel", "Pir", "Jambu"];
+buah.push("lemon");
+console.log(buah);
+
+buah.pop();
+console.log(buah);
